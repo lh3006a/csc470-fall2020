@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: db705b9c226ca48348d6ee3a218bcfaa
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - carrotPrefab: {fileID: 8236377811691395905, guid: ffed2b6fd58d54c88b83b3981fa66976,
+      type: 3}
+  - applePrefab: {fileID: 3757253818329779485, guid: 7a9c2c2d82acd40349d9173132809d3b,
+      type: 3}
+  - turnipPrefab: {fileID: 7396147642899469522, guid: 30e3f5a112f5243d8a2759876cdc331b,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

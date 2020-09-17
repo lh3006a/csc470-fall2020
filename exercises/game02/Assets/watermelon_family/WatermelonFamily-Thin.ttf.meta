@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 075e61c11e54c4e1f9cdada6a4f30ee9
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Watermelon Family
+  fontNames:
+  - Watermelon Family
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: e1186d2f7d2cc4c129d5067ebbc6d494, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
