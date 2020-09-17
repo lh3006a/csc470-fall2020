@@ -62,7 +62,8 @@ public class PlayerController : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
     	if(other.gameObject.CompareTag("Apple")){
-    		
+    		score += 1;
+    		Debug.Log(score);
     		
     		DinoChase dino = dinosaur.GetComponent<DinoChase>();
 
@@ -77,8 +78,7 @@ public class PlayerController : MonoBehaviour
     		}
     			//score = score + 1;
     			Destroy(other.gameObject);
-    			score += 1;
-    			Debug.Log(score);
+    			
     			scoreText.text = score.ToString();
 
 
