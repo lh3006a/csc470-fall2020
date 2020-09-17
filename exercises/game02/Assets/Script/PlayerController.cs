@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
-	float speed = 10f;
+	float speed = 12f;
 	int score = 0;
 	public Text scoreText;
 	GameObject dinosaur;
@@ -50,13 +50,13 @@ public class PlayerController : MonoBehaviour
     		transform.Translate((transform.forward* -1) * Time.deltaTime * speed); 
     	}
     	if(Input.GetKey("right")){
-    		transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z+.1f);
+    		transform.position = new Vector3(transform.position.x, transform.position.y, (transform.position.z+.1f * 3));
     	}
     	if(Input.GetKey("up")){
-    		transform.position = new Vector3(transform.position.x-.1f, transform.position.y, transform.position.z);
+    		transform.position = new Vector3((transform.position.x-.1f* 3), transform.position.y, transform.position.z);
     	}
     	if(Input.GetKey("down")){
-    		transform.position = new Vector3(transform.position.x+.1f, transform.position.y, transform.position.z); 
+    		transform.position = new Vector3((transform.position.x+.1f * 3), transform.position.y, transform.position.z); 
     	}
     }
     private void OnTriggerEnter(Collider other)

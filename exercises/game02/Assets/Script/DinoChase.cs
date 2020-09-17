@@ -19,7 +19,7 @@ public class DinoChase : MonoBehaviour
        if(getBunny){
        	Vector3 bunnySpot = bunny.transform.position - transform.position;
        	bunnySpot = bunnySpot.normalized;
-       	transform.Translate(bunnySpot * Time.deltaTime * 11);
+       	transform.Translate(bunnySpot * Time.deltaTime * 7);
        } 
     }
 }
