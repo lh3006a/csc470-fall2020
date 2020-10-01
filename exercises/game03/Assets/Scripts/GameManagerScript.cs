@@ -9,8 +9,8 @@ public class GameManagerScript : MonoBehaviour
 	GameObject ground;
 	public CellScript[,] grid;
 
-	int gridWidth = 100;
-	int gridHeight = 100;
+	int gridWidth = 50;
+	int gridHeight = 50;
 	float cellDimension = 0.5f;
 	float padding = 0.1f;
 	public static int aliveScore;
