@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 5729973d2ed3040f6bda693406af56d1
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - rend: {instanceID: 0}
+  - aliveScoreText: {fileID: 5791587406249032926, guid: c372ce393b4df46dcb8ee562e049939a,
+      type: 3}
+  - deadScoreText: {fileID: 9179895044050889295, guid: ac244b450251e412ba02f06a941d5182,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
