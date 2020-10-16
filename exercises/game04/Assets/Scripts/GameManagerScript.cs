@@ -19,7 +19,7 @@ public class GameManagerScript : MonoBehaviour
     void Start()
     {
     	plane = GameObject.Find("Plane").GetComponent<PlaneScript>();
-    	for(int i = 0; i < 150; i++){
+    	for(int i = 0; i < 125; i++){
     		float x = Random.Range(Terrain.activeTerrain.transform.position.x, Terrain.activeTerrain.transform.position.x + 
     			Terrain.activeTerrain.terrainData.size.x);
     		float z = Random.Range(Terrain.activeTerrain.transform.position.z, Terrain.activeTerrain.transform.position.z + 
@@ -29,7 +29,7 @@ public class GameManagerScript : MonoBehaviour
     		pos.y = y + Random.Range(50, 90);
     		Instantiate(applePrefab, pos, Quaternion.identity);
     	}
-    	for(int i = 0; i < 250; i++){
+    	for(int i = 0; i < 100; i++){
     		float x = Random.Range(Terrain.activeTerrain.transform.position.x, Terrain.activeTerrain.transform.position.x + 
     			Terrain.activeTerrain.terrainData.size.x);
     		float z = Random.Range(Terrain.activeTerrain.transform.position.z, Terrain.activeTerrain.transform.position.z + 
