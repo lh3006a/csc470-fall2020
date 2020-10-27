@@ -3,7 +3,7 @@ This game will be a matching game. This game will be suited for younger players 
 * Animal's name
 * Animal's habitat
 * Animal's diet
-After the user is familiar with all of the animals, they will click continue and the game will start. The goal is for the user to match all of the animals to each other before time runs out. The animals will be randomly placed on a plane with boxes covering them. The user will click on a box and it will reveal an animal and then click on another box to reveal another animal. If the animals match then the matching animals and blocks will disappear. If the animals do not match, the box will return to cover the animals. This will continue until the user has matched all of teh animals or time runs out. 
+···After the user is familiar with all of the animals, they will click continue and the game will start. The goal is for the user to match all of the animals to each other before time runs out. The animals will be randomly placed on a plane with boxes covering them. The user will click on a box and it will reveal an animal and then click on another box to reveal another animal. If the animals match then the matching animals and blocks will disappear. If the animals do not match, the box will return to cover the animals. This will continue until the user has matched all of teh animals or time runs out. 
 
 After the matching game has ended, the scene will change and the user will be asked to match the animal to their habitat. This will be done by selecting the animal and then selecting the habitat where the animal lives. 
 ## Technical Enhancements
