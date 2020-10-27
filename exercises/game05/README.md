@@ -1,5 +1,5 @@
 # Overview of Game
-This game will be a matching game. This game will be suited for younger players who are learning about animals. The goal of the game is to get the user to match the animals, and then get the animals to their own habitats. After the title screen, there will be a bunch of animals on the screen. If the user clicks on one of the animals, a box will pop up with information about the animal. The information will include:
+This game will be a matching game. This game will be suited for younger players who are learning about animals. The goal of the game is to get the user to match the animals, and then get the animals to their own habitats. After the title screen, there will be a bunch of animals on the screen. If the user clicks on one of the animals, a box will pop up with information about the animal. The box will include an image of the animal's face, like a profile picture. The information will include:
 * Animal's name
 * Animal's habitat
 * Animal's diet
@@ -13,5 +13,8 @@ After the matching game has ended, the scene will change and the user will be as
 2. How to get the box to disappear so that the user can see the animal underneath it
 3. How to randomly place animals under boxes on a plane
 4. Creating a meter that slowly decreases as time decreases
+	* Use Time.deltaTime to update a variable that updates the meter 
 5. How to check if the user has clicked on the correct habitat for the animal that they have selected. 
+	* OnTriggerEnter()?
+
 
