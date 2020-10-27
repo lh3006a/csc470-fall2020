@@ -9,7 +9,7 @@ After the user is familiar with all of the animals, they will click continue and
 After the matching game has ended, the scene will change and the user will be asked to match the animal to their habitat. This will be done by selecting the animal and then selecting the habitat where the animal lives. The animal will move to the habitat and then check if the habitat matches where the animal lives. Once all of the animals have correctly found their homes, the game is over. 
 ## Technical Enhancements
 1. How to get the computer to recognize if two animals are the same if they are randomly placed on the plane
-* Maybe have the user click on both of the animals once they are revealed from under the boxes and check the tags 
+	* Maybe have the user click on both of the animals once they are revealed from under the boxes and check the tags 
 2. How to get the box to disappear so that the user can see the animal underneath it
 3. How to randomly place animals under boxes on a plane
 4. Creating a meter that slowly decreases as time decreases
