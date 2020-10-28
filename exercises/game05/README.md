@@ -12,6 +12,7 @@ After the matching game has ended, the scene will change and the user will be as
 	* Maybe have the user click on both of the animals once they are revealed from under the boxes and check the tags 
 2. How to get the box to disappear so that the user can see the animal underneath it
 3. How to randomly place animals under boxes on a plane
+	* Maybe boxes be children of the animals so that they travel together
 4. Creating a meter that slowly decreases as time decreases
 	* Use Time.deltaTime to update a variable that updates the meter 
 5. How to check if the user has clicked on the correct habitat for the animal that they have selected. 
