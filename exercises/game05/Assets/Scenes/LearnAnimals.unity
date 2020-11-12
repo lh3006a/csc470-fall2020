@@ -1036,7 +1036,7 @@ PrefabInstance:
     - target: {fileID: 7184191491480810248, guid: 1ded3184cb63e40729f89cec5a2da06e,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 124.2
+      value: 155.8
       objectReference: {fileID: 0}
     - target: {fileID: 7184191491480810248, guid: 1ded3184cb63e40729f89cec5a2da06e,
         type: 3}
@@ -1046,7 +1046,7 @@ PrefabInstance:
     - target: {fileID: 7184191491480810248, guid: 1ded3184cb63e40729f89cec5a2da06e,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: -248.4182
+      value: -311.716
       objectReference: {fileID: 0}
     - target: {fileID: 7184191491833750382, guid: 1ded3184cb63e40729f89cec5a2da06e,
         type: 3}
@@ -1082,6 +1082,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 7184191492393759810, guid: 1ded3184cb63e40729f89cec5a2da06e,
+        type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7184191492393759812, guid: 1ded3184cb63e40729f89cec5a2da06e,
         type: 3}
