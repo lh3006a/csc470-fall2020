@@ -15,7 +15,7 @@ The player will have a Holiday meter and everytime they get caught by the Grinch
 The user will use the arrow keys to run around town and collect the different items that were stolen. The player will also be able to pick their sprite at the beginning of the game. The game takes place during the night so it will be dark, with houses that are covered in snow. The objects will be slightly hidden, but will have a particle effect so that the user can see them from far away. The title screen and instructions for the game will have some kind of Holiday music. During the gameplay, I am going to try to have snow crunching sounds when the user is running, and mute the sounds when they are stopped. 
 
 ### Interface Sketches
--MAKE THESE
+[logo]: https://github.com/lh3006a/csc470-fall2020/blob/master/exercises/final/Drawing.png
 
 ### Set Targets
 1. The player will have to find two of five objects in the town and make it back to the center of the town before time runs out. The user does not have to worry about hiding from the Grinch. There will be a time limit, but it is incredibly long. There are only a couple of houses in the town, so it is easy to navigate around and find the objects. The character sprite will run, but it will not be animated. 
