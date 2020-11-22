@@ -12,10 +12,7 @@ The Grinch has stolen the holidays and it is up to you to save the town. The goa
 The player will have a Holiday meter and everytime they get caught by the Grinch the Holiday meter will go down. If the Holiday meter reaches zero, the game is over. If the player is not able to get back to the center of the town when time runs out, the game is also over. 
 
 
-The user will use the arrow keys to run around town and collect the different items that were stolen. The player will also be able to pick their sprite at the beginning of the game. The game takes place during the night so it will be dark, with houses that are covered in snow. The objects will be slightly hidden, but will have a particle effect so that the user can see them from far away. 
-
-### Audio
-The title screen and instructions for the game will have some kind of Holiday music. During the gameplay, I am going to try to have snow crunching sounds when the user is running, and mute the sounds when they are stopped. 
+The user will use the arrow keys to run around town and collect the different items that were stolen. The player will also be able to pick their sprite at the beginning of the game. The game takes place during the night so it will be dark, with houses that are covered in snow. The objects will be slightly hidden, but will have a particle effect so that the user can see them from far away. The title screen and instructions for the game will have some kind of Holiday music. During the gameplay, I am going to try to have snow crunching sounds when the user is running, and mute the sounds when they are stopped. 
 
 ### Interface Sketches
 -MAKE THESE
@@ -26,5 +23,7 @@ The title screen and instructions for the game will have some kind of Holiday mu
 3. The character sprite will be animated to look like it is running. There will be a map in the corner of the screen that shows the user where the character sprite is in the town and where the objects are hidden around town. 
 
 ## Timeline
+The design document is due on Monday, November 23rd. I would like to have designed the game space, characters, and finished the bulk of the character script, movement, and triggers by Thursday, November 26th. I also want to have the title screen, instructions, and end of the game scene that links back to the main page done by Thursday. By Monday November 30th, I want to have the meter working and to have at least started trying to figure out how to cast a shadow that the player cannot move in. By Thursday, December 3rd, I want to have the audio mostly figured out. If I am feeling good about where the project is, I want to try to add animation to the character and try to create the navigation map that would go in the corner of the play screen. I want to have the game working and finished by December 7th so that I can start going over it and fixing little things to make it easier to play and nicer to look at. 
+
 
 
