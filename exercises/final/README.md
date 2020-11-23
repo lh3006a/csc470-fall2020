@@ -11,14 +11,8 @@ The Grinch has stolen the holidays and it is up to you to save the town's cheer.
 
 When an object is found, the players holiday meter raises slightly if it has gone down. The player will have a holiday meter and everytime they get caught by the Grinch the holiday meter will go down. If the meter reaches zero, the game is over. If the player is not able to get back to the center of the town when time runs out, the game is also over. 
 
-#### Input
-The player will be able to pick their sprite at the beginning of the game. The user will use the arrow keys to run around town and collect the different items that were stolen. The game takes place during the night so it will be a little dark, with houses that are covered in snow. 
 
-#### Visuals
-I am hoping that the town will look realistic, but also very cute and maybe a little cartoony. There will be roads that the player will run down while searching for the objects. The objects will be scattered around the roads and houses, but will have a particle effect so that the user can see them from far away. The user will walk down the streets to try to find the objects. 
-
-#### Audio
-The title screen and instructions for the game will have some kind of holiday music. During the gameplay, I am going to try to have snow crunching sounds when the user is running, and mute the sounds when they are stopped. 
+The player will be able to pick their sprite at the beginning of the game. The user will use the arrow keys to run around town and collect the different items that were stolen. The game takes place during the night so it will be a little dark, with houses that are covered in snow. I am hoping that the town will look realistic, but also very cute and maybe a little cartoony. There will be roads that the player will run down while searching for the objects. The objects will be scattered around the roads and houses, but will have a particle effect so that the user can see them from far away. The user will walk down the streets to try to find the objects. The title screen and instructions for the game will have some kind of holiday music. During the gameplay, I am going to try to have snow crunching sounds when the user is running, and mute the sounds when they are stopped. 
 
 ### Interface Sketches
 ![alt text](https://github.com/lh3006a/csc470-fall2020/blob/master/exercises/final/Drawing.png)
