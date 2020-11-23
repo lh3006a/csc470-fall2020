@@ -1,5 +1,5 @@
 # Save The Holidays From The Grinch
-Take the holidays back from the Grinch after he steals it. 
+Take the holidays back from the Grinch after he steals all the objects that are important for the holidays. 
 
 ## Plan
 The Grinch has stolen the holidays and it is up to you to save the town. The goal of this game is to find all of the things that the Grinch has stolen and get back to the center of the town before time runs out and without being caught by the Grinch. The player will have to run around town and find all of the things that the Grinch stole from the houses.
@@ -9,10 +9,10 @@ The Grinch has stolen the holidays and it is up to you to save the town. The goa
 * Holiday music
 * Snowmen
 
-The player will have a Holiday meter and everytime they get caught by the Grinch the Holiday meter will go down. If the Holiday meter reaches zero, the game is over. If the player is not able to get back to the center of the town when time runs out, the game is also over. 
+The player will have a holiday meter and everytime they get caught by the Grinch the Holiday meter will go down. If the Holiday meter reaches zero, the game is over. If the player is not able to get back to the center of the town when time runs out, the game is also over. 
 
 
-The user will use the arrow keys to run around town and collect the different items that were stolen. The player will also be able to pick their sprite at the beginning of the game. The game takes place during the night so it will be dark, with houses that are covered in snow. The objects will be slightly hidden, but will have a particle effect so that the user can see them from far away. The title screen and instructions for the game will have some kind of Holiday music. During the gameplay, I am going to try to have snow crunching sounds when the user is running, and mute the sounds when they are stopped. 
+The user will use the arrow keys to run around town and collect the different items that were stolen. The player will also be able to pick their sprite at the beginning of the game. The game takes place during the night so it will be a little dark, with houses that are covered in snow. The objects will be slightly hidden, but will have a particle effect so that the user can see them from far away. The user will walk down the streets to try to find the objects. The title screen and instructions for the game will have some kind of holiday music. During the gameplay, I am going to try to have snow crunching sounds when the user is running, and mute the sounds when they are stopped. 
 
 ### Interface Sketches
 ![alt text](https://github.com/lh3006a/csc470-fall2020/blob/master/exercises/final/Drawing.png)
