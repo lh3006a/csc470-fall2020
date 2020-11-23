@@ -19,7 +19,7 @@ The player will be able to pick their sprite at the beginning of the game. The u
 
 ### Interface Sketches
 View of Game: ![alt text](https://github.com/lh3006a/csc470-fall2020/blob/master/exercises/final/Drawing.png)
-How the shadow would move: 
+How the shadow would move: ![alt text](https://github.com/lh3006a/csc470-fall2020/blob/master/exercises/final/Shadow.png)
 
 ### Set Targets
 1. The user does not have to worry about hiding from the Grinch. There will be no shadow that moves as the player gets closer to an object. There are only a couple of houses in the town, so it is easy to navigate around and find the objects. The character sprite will run, but it will not be animated. There will be audio for the title and instruction scenes but not during game play. 
