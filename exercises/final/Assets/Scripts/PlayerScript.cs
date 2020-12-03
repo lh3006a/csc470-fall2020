@@ -8,11 +8,6 @@ using UnityEngine.Networking;
 
 public class PlayerScript : MonoBehaviour
 {
-	//public GameObject yellowSled, redSled, greenSled, blueSled, purpleSled;
-	//public Renderer sled;
-	// public GameObject sled;
-	// Renderer rend;
-	// public string selectedCharacter = "SelectedCharacter";
 
 	float moveSpeed = 35f;
 	float rotateSpeed = 85f;
@@ -35,6 +30,7 @@ public class PlayerScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+    	collected = 0;
     	cc = gameObject.GetComponent<CharacterController>();
         
     }
@@ -66,7 +62,7 @@ public class PlayerScript : MonoBehaviour
     public void OnTriggerEnter(Collider other){
     	if(other.gameObject.CompareTag("Gift")){
     		Destroy(other.gameObject);
-    		collected = collected + 1;
+    		collected++;
     	}
     	else if(other.gameObject.CompareTag("TownHall")){
     		if(collected == 6){
