@@ -8,6 +8,7 @@ public class GameManagerScript : MonoBehaviour
 {
 	public static GameManagerScript instance;
 	PlayerScript player;
+	
 	public Text collectedCount;
 
 	public Image hitImage;
@@ -38,10 +39,10 @@ public class GameManagerScript : MonoBehaviour
 
     void Update()
     {
-    		collectedCount.text = player.collected.ToString();
-    		if(player.hit){
-    			hitCoroutine = StartCoroutine(hitIn());
-    		}
+    	collectedCount.text = player.collected.ToString();
+    	if(player.hit){
+    		hitCoroutine = StartCoroutine(hitIn());
+   		}
 
     }
 

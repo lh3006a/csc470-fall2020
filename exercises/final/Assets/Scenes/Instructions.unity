@@ -157,8 +157,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -145}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 0.000013351, y: -159}
+  m_SizeDelta: {x: 195.76343, y: 48.30484}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &39687781
 MonoBehaviour:
@@ -337,10 +337,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
+  m_fontSize: 40.7
   m_fontSizeBase: 24
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -680,7 +680,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.0000076294, y: 129}
+  m_AnchoredPosition: {x: 0.0000076294, y: 172}
   m_SizeDelta: {x: 402.0517, y: 48.27942}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1248970338
@@ -897,7 +897,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000015259, y: -5.8}
+  m_AnchoredPosition: {x: 0.000015259, y: 13}
   m_SizeDelta: {x: 595.5607, y: 188.58377}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1298672443
@@ -920,9 +920,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: Return all of the objects to the Town Hall that the evil snowmen stole
-    to get rid of the holiday cheer! Watch out for the snowmen and their shadows.
-    If you are caught moving in their shadows you lose your cheer. Use the arrow
-    keys to move.
+    to save the holiday cheer! Watch out for the snowmen and their shadows. If you
+    are caught moving in their shadows you lose your cheer. Use the arrow keys to
+    move.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 6b63c919efb384036bdae414d928f46b, type: 2}
   m_sharedMaterial: {fileID: -2015437775423112750, guid: 6b63c919efb384036bdae414d928f46b,

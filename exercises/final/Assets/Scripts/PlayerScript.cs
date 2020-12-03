@@ -8,6 +8,12 @@ using UnityEngine.Networking;
 
 public class PlayerScript : MonoBehaviour
 {
+	//public GameObject yellowSled, redSled, greenSled, blueSled, purpleSled;
+	//public Renderer sled;
+	// public GameObject sled;
+	// Renderer rend;
+	// public string selectedCharacter = "SelectedCharacter";
+
 	float moveSpeed = 35f;
 	float rotateSpeed = 85f;
 

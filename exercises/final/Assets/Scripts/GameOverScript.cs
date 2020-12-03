@@ -1,16 +1,16 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameOverScript : MonoBehaviour
 {
 	public float timer = 2f;
 
-	ButtonManager button;
     // Start is called before the first frame update
     void Start()
     {
-    	button = GameObject.Find("GameButton").GetComponent<ButtonManager>();
+    	//button = GameObject.Find("GameButton").GetComponent<ButtonManager>();
         
     }
 
@@ -19,9 +19,12 @@ public class GameOverScript : MonoBehaviour
     {
     	timer -= Time.deltaTime;
     	if(timer <= 0){
-    		button.GoToTitle();
+    		GoToTitle();
 
     	}
         
+    }
+    public void GoToTitle(){
+    	SceneManager.LoadScene("Title");
     }
 }

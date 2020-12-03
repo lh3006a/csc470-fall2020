@@ -8,7 +8,6 @@ public class ButtonManager : MonoBehaviour
 {
 	//MusicScript winterSong;
 	// PlayerScript player;
-	// public float timer = 2f;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,12 +21,6 @@ public class ButtonManager : MonoBehaviour
     void Update()
     {
     	//GameObject.FindGameObjectWithTag("Music").GetComponent<MusicScript>().PlayMusic();
-    	// if(player.won = false){
-    	// 	timer -= Time.deltaTime;
-    	// 	if(timer <= 0){
-    	// 		GoToTitle();
-    	// 	}
-    	// }
         
     }
     
@@ -43,5 +36,9 @@ public class ButtonManager : MonoBehaviour
     	//GameObject.FindGameObjectWithTag("Music").GetComponent<MusicScript>().StopMusic();
     	//winterSong.StopMusic();
     	SceneManager.LoadScene("Game");
+    }
+
+    public void GoToSledSelection(){
+    	SceneManager.LoadScene("PickSprite");
     }
 }
