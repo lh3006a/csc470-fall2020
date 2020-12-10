@@ -22,7 +22,7 @@ public class SnowmanScript : MonoBehaviour
     	//transform.Rotate(Quaternion.Euler(maxRotation * Mathf.Sin(Time.deltaTime * rotateSpeed), 0f, 0f));
        // transform.rotation = Quaternion.Euler(0f, 0f, maxRotation * Mathf.Sin(Time.deltaTime * rotateSpeed));
     	//works
-    	transform.Rotate(new Vector3(0,35,0)* Time.deltaTime);
+    	transform.Rotate(new Vector3(0,70,0)* Time.deltaTime);
     	// Debug.Log(transform.rotation.y);
     	// //Debug.Log(transform.localEulerAngles);
     	//  if(transform.rotation.y > 0.15f){

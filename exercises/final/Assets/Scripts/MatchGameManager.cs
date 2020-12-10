@@ -20,7 +20,7 @@ public class MatchGameManager : MonoBehaviour
 	public TMP_Text scoreText;
 	public TMP_Text bonusRound;
 	public float timer = 1.5f;
-	public float bonusTimer = 1.5f;
+	public float bonusTimer = 1f;
 	public bool cardsMatch = false;
 
 	public GameObject[] spots;
@@ -180,6 +180,9 @@ public class MatchGameManager : MonoBehaviour
     }
     public void GoToWin(){
     	SceneManager.LoadScene("Win");
+    }
+    public void GoToTitle(){
+    	SceneManager.LoadScene("Title");
     }
     
 }
