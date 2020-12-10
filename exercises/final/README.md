@@ -1,21 +1,22 @@
-# Save The Holidays From A Grinch
-Take the holidays back from a grinch after he tries to steal the holiday cheer.  
+# Save The Holidays From The Evil Snowmen
+Take the holidays back from evil snowmen after they try to steal the holiday cheer.  
 
 ## Plan
-A grinch has stolen the holidays and it is up to you to save the town's cheer. The goal of this game is to find all of the things that the grinch has stolen and bring them back to the center of the town before time runs out and without being losing your holiday cheer. The player will have to run around town and find all of the things that the grinch stole from the houses. Such as:
-* Lights
+Evil snowmen have stolen the holidays and it is up to you to save the town's cheer. The goal of this game is to find all of the things that were stolen and bring them back to the center of the town without losing your holiday cheer. The player will have to run around town and find all of the things that the snowmen stole from the houses. These objects are: 
 * Presents
-* Cookies
-* Holiday music
-* Snowmen
+* Gingerbread Cookies
 * Mittens
 * Hot Chocolate
 * Sled
+* Ice Skates
 
-When an object is found, the players holiday meter raises slightly if it has gone down. The player will have a holiday meter that is shown at the top of the screen and everytime they get caught by the grinch the holiday meter will go down. There will be a slight fade in fade out so that the user gets more feedback that they were caught, besides just the meter. If the meter reaches zero, the game is over. If the player is not able to get back to the center of the town when time runs out, the game is also over. There will be a textbox that will show the player how many items they have collected and how many more they need to collect.  
+ The player has a cheer meter that is shown at the top of the screen and everytime they get caught moving in the snowmen's shadows the cheer meter will go down. The evil snowmen are close to each of the objects and rotate with a shadow that the user has to avoid moving in. There is a fade in fade out so that the user gets more feedback that they were caught, besides just the meter. If the meter reaches zero, the game is over. There is a textbox that shows the player how many items they have collected and how many more they need to collect.  
 
 
-The player will be able to pick their sprite at the beginning of the game. The player will use the arrow keys to run around town and collect the different items that were stolen. The camera will be slightly behind the player and move with them. The game takes place during the night so it will be a little dark, with houses that are covered in snow. I am hoping that the town will look realistic, but also cute and maybe a little cartoony. There will be roads that the player will run down while searching for the objects. The roads will be set up so that they intersect with one another, but it will not be too complicated. The objects will be scattered around the roads and houses, but will have a particle effect on them so that the user can see them from far away. The user will walk down the streets to try to find the objects. The title screen and instructions for the game will have some kind of holiday music. During the gameplay, I am going to try to have snow crunching sounds when the user is running, and mute the sounds when they are stopped. 
+The player is able to pick the color of their sled at the beginning of the game. The player uses the arrow keys to move around town and collect the different items that were stolen. The objects have blue particles coming off of them so that they are easier to see. The camera will be slightly behind the player and move with them. The game takes place during the night so it will be a little dark, with snow coming down. There are different houses and trees spread out throughout the town. There are roads that the player can move on while searching for the objects. The roads are set up so that they intersect with one another, but it will not be too complicated. The objects will be scattered around the roads and houses, but have a blue particle effect on them so that the user can see them from far away. The user goes down the streets to try to find the objects. The entire games has an instrumental version of "Walking in a Winter Wonderland." The user has to make it back to the town hall, that is lit up in blue lightening. 
+
+
+If the user's cheer meter reaches zero, the game over screen will play, and then the user is taken back to the title page. There is also a bonus round for users that win the game. The bonus round is a matching game where the users have to match the objects that they found during the first round. Animation is used with the cards to flip them when they are clicked. The color of the card also changes so that the user knows if it is selected or not. There is also a button that users can press that will bring them back to the title screen if they do not want to play the matching game. 
 
 ### Interface Sketches
 View of Game: ![alt text](https://github.com/lh3006a/csc470-fall2020/blob/master/exercises/final/Drawing.png)
