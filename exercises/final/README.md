@@ -19,7 +19,8 @@ The player is able to pick the color of their sled at the beginning of the game.
 If the user's cheer meter reaches zero, the game over screen will play, and then the user is taken back to the title page. There is also a bonus round for users that win the game. The bonus round is a matching game where the users have to match the objects that they found during the first round. Animation is used with the cards to flip them when they are clicked. The color of the card also changes so that the user knows if it is selected or not. There is also a button that users can press that will bring them back to the title screen if they do not want to play the matching game. 
 
 ### Interface Sketches
-**Sled Selection:** ![alt text](https://github.com/lh3006a/csc470-fall2020/blob/master/exercises/final/pickSled.png)
+**Sled Selection:** 
+![alt text](https://github.com/lh3006a/csc470-fall2020/blob/master/exercises/final/pickSled.png)
 * This screenshot shows the sled selection, where users get to pick what color sled they want to play with. 
 
 **View of Game:** ![alt text](https://github.com/lh3006a/csc470-fall2020/blob/master/exercises/final/game.png)
