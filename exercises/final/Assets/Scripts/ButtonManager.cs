@@ -11,16 +11,12 @@ public class ButtonManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-    	GameObject.FindGameObjectWithTag("Music").GetComponent<MusicScript>().PlayMusic();
-    	//winterSong.PlayMusic();
-    	// player = GameObject.Find("Player").GetComponent<PlayerScript>();
         
     }
 
     // Update is called once per frame
     void Update()
     {
-    	//GameObject.FindGameObjectWithTag("Music").GetComponent<MusicScript>().PlayMusic();
         
     }
     
@@ -33,8 +29,6 @@ public class ButtonManager : MonoBehaviour
     }
 
     public void GoToGame(){
-    	//GameObject.FindGameObjectWithTag("Music").GetComponent<MusicScript>().StopMusic();
-    	//winterSong.StopMusic();
     	SceneManager.LoadScene("Game");
     }
 

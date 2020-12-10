@@ -23,7 +23,7 @@ public class GameManagerScript : MonoBehaviour
     	}
     	else{
     		instance = this;
-    		DontDestroyOnLoad(this.gameObject);
+    		//DontDestroyOnLoad(this.gameObject);
     	}
     }
     void Start()

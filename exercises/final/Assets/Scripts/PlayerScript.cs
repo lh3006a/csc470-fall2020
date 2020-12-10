@@ -66,7 +66,7 @@ public class PlayerScript : MonoBehaviour
     	}
     	else if(other.gameObject.CompareTag("TownHall")){
     		if(collected == 6){
-    			GoToWin();
+    			GoToMatch();
     		}
     		else{
     			timer = 1.5f;
@@ -95,6 +95,9 @@ public class PlayerScript : MonoBehaviour
     public void GoToWin(){
     	won = true;
     	SceneManager.LoadScene("Win");
+    }
+    public void GoToMatch(){
+    	SceneManager.LoadScene("Match");
     }
     public void GoToDone(){
     	won = false;

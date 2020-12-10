@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MusicScript : MonoBehaviour
 {
-	// public static MusicScript instance;
+	 public static MusicScript instance;
 
 	// private void Awake(){
  //    	if(instance != null && instance != this){
@@ -19,6 +19,13 @@ public class MusicScript : MonoBehaviour
 	public GameObject song;
 
 	private void Awake(){
+		if(!instance){
+			instance = this;
+		}
+		else{
+			Destroy(this.gameObject);
+		}
+		DontDestroyOnLoad(this.gameObject);
 		// song = GameObject.Find("MusicGameObject");
 		// if(song == null){
 		// 	song = this.gameObject;
@@ -31,49 +38,23 @@ public class MusicScript : MonoBehaviour
 		// 	}
 		// }
 
-		if(song == null){
-			song = transform.gameObject;
-			DontDestroyOnLoad(song);
-		}
-		else{
-			Destroy(this.gameObject);
-		}
+		// if(song == null){
+		// 	song = transform.gameObject;
+		// 	DontDestroyOnLoad(song);
+		// }
+		// else{
+		// 	Destroy(this.gameObject);
+		// }
 		//DontDestroyOnLoad(transform.gameObject);
 		
 		//winterSong = GetComponent<AudioSource>();
 	}
 	void Start(){
-	// 	Debug.Log(song);
-	// 	if(song == null){
-	// 		song = transform.gameObject;
-	// 		DontDestroyOnLoad(song);
-	// 	}
-	// 	winterSong = GetComponent<AudioSource>();
-	 }
+
+	}
 
 	void Update(){
-		// Debug.Log(song);
-		// if(song == null){
-		// 	song = transform.gameObject;
-		// 	DontDestroyOnLoad(song);
-		// }
-		// winterSong = GetComponent<AudioSource>();
 
-		// if (GameManager.instance.game){
-		// 	StopMusic();
-
-		// }
-
-	}
-	public void PlayMusic(){
-		if(winterSong.isPlaying){
-			return;
-		}
-		winterSong.Play();
-	}
-
-	public void StopMusic(){
-		winterSong.Stop();
 	}
 
 }
