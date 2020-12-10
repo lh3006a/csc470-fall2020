@@ -20,6 +20,7 @@ If the user's cheer meter reaches zero, the game over screen will play, and then
 
 ### Interface Sketches
 **Sled Selection:** 
+
 ![alt text](https://github.com/lh3006a/csc470-fall2020/blob/master/exercises/final/pickSled.png)
 * This screenshot shows the sled selection, where users get to pick what color sled they want to play with. 
 
